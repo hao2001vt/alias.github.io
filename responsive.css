@@ -1,0 +1,72 @@
+/* Moblie */
+@media (max-width:739px){
+    .navbar__content{
+        width: 90%;
+    }
+    .navbar__content-tittle{
+        font-size: 3.2rem;
+    }
+    .navbar__content-text{
+        font-size: 1.8rem;
+    }
+    .navbar__mobile__tablet{
+        padding: 0 30px;
+    }
+    .bar-skill{
+        margin-top: 40px;
+    }
+    .col.col-padding-right,
+    .col.col-padding-left{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .row-client-feedback{
+        margin: 0;
+    }
+    .blog-product-calending,
+    .blog-product-comment
+    {
+        
+        font-size: 1.2rem;
+    }
+    .col.col-margin-mobile{
+        margin-top: 30px;
+    }
+    .footer-socials-list-item{
+        width: 50px;
+        height: 50px;
+    }
+    .footer-socials-list-item i{
+        font-size: 2rem;
+        color: var(--blue-color);
+    }
+    .row-footer-bottom p{
+      
+    }
+    
+}
+/* Tablet */
+@media (max-width:1023px) and (min-width:740px){
+    .services-big-content{
+        padding: 3rem;
+    }
+    .padding.resume-product{
+        padding: 20px;
+    }
+}
+/* Mobile & Tablet */
+@media (max-width:1023px){
+    .navbar{
+        display: none;
+    }
+    .navbar__mobile__tablet{
+        display: flex;
+    }
+    .about__content{
+        padding: 0;
+        margin-top: 40px;
+    }
+    .services-big-content{
+        padding: 1rem;
+    }
+}

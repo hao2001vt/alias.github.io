@@ -1,0 +1,33 @@
+:root{
+    --white-color:white;
+    --blue-color:#57D131;
+
+    --navbar-height:55px;
+    --skill-bar-height:4px;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: inherit;
+}
+.button{
+     padding:18px 28px ;
+    background-color: var(--blue-color);
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .2rem;
+    font-weight: 400;
+}
+.button:hover{
+    background-color: #4EBE2A;
+}
